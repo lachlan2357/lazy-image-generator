@@ -1,0 +1,25 @@
+{
+	"name": "lazy-image-generator",
+	"description": "A CLI tool to generate low-resolution images primarily for use in DOM Lazy Loading.",
+	"version": "0.0.1",
+	"license": "GPL-3.0-only",
+	"author": {
+		"name": "Lachlan Rehder",
+		"email": "lachlan.rehder@outlook.com",
+		"url": "https://lachlan2357.github.io"
+	},
+	"private": true,
+	"type": "module",
+	"main": "index.js",
+	"bin": {
+		"lazy-image-generator": "index.js"
+	},
+	"scripts": {
+		"dev": "node index.js"
+	},
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"commander": "^11.0.0",
+		"image-js": "^0.35.3"
+	}
+}
